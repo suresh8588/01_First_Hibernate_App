@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="in.suresh.entity.Student" table="STUDENT">
+		<id name="sid" column="sid"></id>
+		<property name="sname" column="std_name" />
+		<property name="gender" column="std_gender" />
+		<property name="marks" column="std_marks" />
+	</class>
+</hibernate-mapping>
